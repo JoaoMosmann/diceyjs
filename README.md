@@ -1,6 +1,15 @@
 # diceyjs
 Javascript helper to roll dices for browsers and nodejs
 
+## Installation
+
+You can install through NPM and BOWER as well.
+
+```
+bower install diceyjs
+npm install diceyjs
+```
+
 ## Usage
 
 There are many ways to use it. So use it as you may like.

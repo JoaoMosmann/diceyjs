@@ -1,0 +1,23 @@
+{
+  "name": "diceyjs",
+  "version": "1.0.0",
+  "homepage": "https://github.com/JoaoMosmann/diceyjs",
+  "authors": [
+    "JoaoMosmann <s0adex@gmail.com>"
+  ],
+  "description": "Helper for rolling dices",
+  "main": "dicey.js",
+  "keywords": [
+    "dice",
+    "random",
+    "rpg"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/jomos/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/jomos/.npm/diceyjs/1.0.0/package.tgz', '.' ]
+12 verbose tarball /home/jomos/.npm/diceyjs/1.0.0/package.tgz
+13 verbose folder .
+14 info prepublish diceyjs@1.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/jomos/.npm/1f1177db-tar.lock
+17 silly lockFile a7a47c17-os-npm-diceyjs-1-0-0-package-tgz tar:///home/jomos/.npm/diceyjs/1.0.0/package.tgz
+18 verbose lock tar:///home/jomos/.npm/diceyjs/1.0.0/package.tgz /home/jomos/.npm/a7a47c17-os-npm-diceyjs-1-0-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile a7a47c17-os-npm-diceyjs-1-0-0-package-tgz tar:///home/jomos/.npm/diceyjs/1.0.0/package.tgz
+22 silly lockFile a7a47c17-os-npm-diceyjs-1-0-0-package-tgz tar:///home/jomos/.npm/diceyjs/1.0.0/package.tgz
+23 silly lockFile 1373fae5--jomos-npm-diceyjs-1-0-0-package /home/jomos/.npm/diceyjs/1.0.0/package
+24 verbose lock /home/jomos/.npm/diceyjs/1.0.0/package /home/jomos/.npm/1373fae5--jomos-npm-diceyjs-1-0-0-package.lock
+25 silly lockFile 1373fae5--jomos-npm-diceyjs-1-0-0-package /home/jomos/.npm/diceyjs/1.0.0/package
+26 silly lockFile 1373fae5--jomos-npm-diceyjs-1-0-0-package /home/jomos/.npm/diceyjs/1.0.0/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'diceyjs',
+29 silly publish   version: '1.0.0',
+29 silly publish   description: 'Helper for rolling dices',
+29 silly publish   main: 'dicey.js',
+29 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/JoaoMosmann/diceyjs.git' },
+29 silly publish   keywords: [ 'dice', 'random', 'rpg' ],
+29 silly publish   author: { name: 'JoaoMosmann' },
+29 silly publish   license: 'ISC',
+29 silly publish   bugs: { url: 'https://github.com/JoaoMosmann/diceyjs/issues' },
+29 silly publish   homepage: 'https://github.com/JoaoMosmann/diceyjs',
+29 silly publish   readme: '# diceyjs\nJavascript helper to roll dices for browsers and nodejs\n\n## Usage\n\nThere are many ways to use it. So use it as you may like.\n```js\nvar Dicey = require(\'./dicey.js\');\nDicey.roll(3, 15); // Will return a random number from 3 to 15\nDicey.roll(50); // Will return a random number from 0 to 50\nDicey.roll(\'2d10\'); // Will return a random number from 2 to 20\n```\n\n## Randomizer Methods\n\nBy default are 5 randomizer methods.\n\n**NORMAL_ROLL** : Just randomize, round the number and return it.\n\n**BEST_OF_TWO** : Randomize twice and return the highest value.\n\n**BEST_OF_THREE** : Randomize three times and return the highest value.\n\n**WORST_OF_TWO** : Randomize twice and return the lowest value.\n\n**WORST_OF_THREE** : Randomize three times and return the lowest value.\n\n#### Example\n```js\nDicey.roll(\'2d10\', \'BEST_OF_THREE\');\nDicey.roll(10, 50, \'WORST_OF_THREE\');\n```\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: '507cfe27701b0c0c895ed9d0915d8a76ef9b0457',
+29 silly publish   _id: 'diceyjs@1.0.0',
+29 silly publish   _shasum: '10cec61a8ac6db22dd424a3090491c5e7b466fc4',
+29 silly publish   _from: '.' }
+30 error need auth auth and email required for publishing
+30 error need auth You need to authorize this machine using `npm adduser`
+31 error System Linux 3.13.0-45-generic
+32 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+33 error cwd /home/jomos/diceyjs
+34 error node -v v0.10.36
+35 error npm -v 1.4.28
+36 error code ENEEDAUTH
+37 verbose exit [ 1, true ]
